@@ -10,12 +10,13 @@ Library dependencies:
 3. Installing the last master Arduino_Core_STM32 on https://github.com/stm32duino/Arduino_Core_STM32
   because the Hardwaretimer definitions changed a bit in 1.9.0 version which about to release.
 4. lv_arduino https://github.com/littlevgl/lv_arduino
-  and config the lv_conf.h eg: 
+  and config the lv_conf.h eg:
+  ```C++
   #define LV_HOR_RES_MAX          (320)
   #define LV_VER_RES_MAX          (240)
   #define LV_USE_THEME_NIGHT      1   /*Dark elegant theme*/
-  #define LV_MEM_CUSTOM      1 // otherwise overfloe the flash on STM32F103CB
-  
+  #define LV_MEM_CUSTOM           1  // otherwise overflow the flash on STM32F103CB
+  ```
 ![Example](https://github.com/HamidSaffari/lv_arduino/blob/master/examples/STM32_TFT_eSPI_Slider/photo_2020-04-02_01-55-36.jpg)
 
 
