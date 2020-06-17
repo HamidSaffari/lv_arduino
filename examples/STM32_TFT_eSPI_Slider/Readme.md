@@ -15,7 +15,7 @@ Library dependencies:
   #define LV_HOR_RES_MAX          (320)
   #define LV_VER_RES_MAX          (240)
   #define LV_USE_THEME_NIGHT      1   /*Dark elegant theme*/
-  #define LV_MEM_CUSTOM           1  // otherwise overflow the RAM on STM32F103CB
+  #define LV_MEM_CUSTOM           1  // otherwise overflowed the FLASH on STM32F103CB
   ```
 ![Example](https://github.com/HamidSaffari/lv_arduino/blob/master/examples/STM32_TFT_eSPI_Slider/photo_2020-04-02_01-55-36.jpg)
 
